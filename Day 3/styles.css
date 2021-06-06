@@ -1,0 +1,22 @@
+fieldset{
+    width:60%;
+    margin-top: 40px;
+    margin-left:200px;
+    margin-right:300px;
+    height:800px;
+    border:2px solid #000
+}
+
+legend{
+    text-align:center;
+    font-size:50px;
+}
+
+.vertical {
+    border-left: 2px solid black;
+    height: 550px;
+    position:absolute;
+    left: 40%;
+    margin-top: 150px;
+    margin-bottom:30px;
+}
