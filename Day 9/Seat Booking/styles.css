@@ -1,0 +1,49 @@
+.container {
+  height: 75vh;
+  width: 60vw;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  gap: 5px 5px;
+  margin-left: 300px;
+  border: none;
+}
+body {
+  background-color: rgb(179, 143, 187);
+}
+.seat-details {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 30px;
+  background-color: rgb(167, 131, 202);
+}
+
+.seats-occupied {
+  font-weight: bold;
+  text-align: center;
+}
+
+.seats-remaining {
+  font-weight: bold tra;
+
+  text-align: center;
+}
+
+.seat {
+  height: auto;
+  width: auto;
+  background-color: rgb(101, 252, 108);
+  border: 1px solid rgb(179, 143, 187);
+}
+
+.seat:hover {
+  opacity: 0.7;
+}
+
+.booked {
+  background-color: rgb(255, 0, 0);
+}
+
+* {
+  background-color: #edc7b7;
+}
